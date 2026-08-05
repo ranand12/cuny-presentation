@@ -572,11 +572,98 @@ strong { color: var(--gc-blue); font-weight: 700; }
   <div class="gc-banner"><div class="gc-band"></div><div class="gc-band"></div><div class="gc-band"></div><div class="gc-band"></div></div>
 </div>
 
+<!-- SLIDE 5: How AI is Consumed on Google Cloud -->
+<div class="slide" id="slide-5">
+  <div class="gc-logo"><span style="color:#4285F4">G</span><span style="color:#EA4335">o</span><span style="color:#FBBC04">o</span><span style="color:#4285F4">g</span><span style="color:#34A853">l</span><span style="color:#EA4335">e</span> <span style="color:#5F6368">Cloud</span></div>
+  <div class="reveal" data-step="0">
+    <div class="slide-label">Google Cloud AI Platform</div>
+    <h2>How AI is <strong>Consumed</strong></h2>
+    <p class="subtext">From raw infrastructure to ready-to-use agents — pick your altitude</p>
+  </div>
+
+  <div style="display:flex;gap:20px;width:100%;margin-top:20px;">
+    <!-- LEFT COLUMN: Infrastructure -->
+    <div style="flex:1;" class="reveal-scale" data-step="1">
+      <div style="background:var(--gc-surface);border:1px solid rgba(0,0,0,0.08);border-radius:var(--radius);border-top:4px solid var(--gc-blue);padding:20px 22px;height:100%;display:flex;flex-direction:column;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+          <div class="gc-badge blue"><span class="material-symbols-outlined">memory</span></div>
+          <div>
+            <h3 style="font-size:1.05rem;">Infrastructure & Tokens</h3>
+            <div style="font-size:0.7rem;color:var(--gc-secondary);">Compute, models & API consumption</div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <div style="background:#fff;border:1px solid var(--gc-gray-200);border-radius:8px;padding:12px 14px;">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gc-blue);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">GPUs & TPUs</div>
+            <div style="font-size:0.75rem;color:var(--gc-secondary);line-height:1.4;">A100, H100, L4 GPUs and Cloud TPU v5e for training & inference at scale</div>
+          </div>
+          <div style="background:#fff;border:1px solid var(--gc-gray-200);border-radius:8px;padding:12px 14px;">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gc-blue);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">1P Models — Google</div>
+            <div style="font-size:0.75rem;color:var(--gc-secondary);line-height:1.4;">Gemini 2.5 Pro/Flash, Imagen 4, Veo, Chirp — via Vertex AI API, pay-per-token</div>
+          </div>
+          <div style="background:#fff;border:1px solid var(--gc-gray-200);border-radius:8px;padding:12px 14px;">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gc-blue);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">3P Models — Partner</div>
+            <div style="font-size:0.75rem;color:var(--gc-secondary);line-height:1.4;">Claude (Anthropic), Llama (Meta), Mistral — deployed on Vertex AI Model Garden</div>
+          </div>
+          <div style="background:#fff;border:1px solid var(--gc-gray-200);border-radius:8px;padding:12px 14px;">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gc-blue);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">Fine-Tuning & RAG</div>
+            <div style="font-size:0.75rem;color:var(--gc-secondary);line-height:1.4;">Vertex AI fine-tuning, grounding with Google Search, Vertex AI Search for enterprise RAG</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN: Agents -->
+    <div style="flex:1;" class="reveal-scale" data-step="2">
+      <div style="background:var(--gc-surface);border:1px solid rgba(0,0,0,0.08);border-radius:var(--radius);border-top:4px solid var(--gc-green);padding:20px 22px;height:100%;display:flex;flex-direction:column;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+          <div class="gc-badge green"><span class="material-symbols-outlined">smart_toy</span></div>
+          <div>
+            <h3 style="font-size:1.05rem;">Agents & Assistants</h3>
+            <div style="font-size:0.7rem;color:var(--gc-secondary);">Pre-built & custom AI agents that take action</div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <div style="background:#fff;border:1px solid var(--gc-gray-200);border-radius:8px;padding:12px 14px;">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gc-green);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">Gemini Enterprise App</div>
+            <div style="font-size:0.75rem;color:var(--gc-secondary);line-height:1.4;">Chat, file analysis, web search, media generation, Gems, Deep Research — browser-based, no code</div>
+          </div>
+          <div style="background:#fff;border:1px solid var(--gc-gray-200);border-radius:8px;padding:12px 14px;">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gc-green);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">NotebookLM Enterprise</div>
+            <div style="font-size:0.75rem;color:var(--gc-secondary);line-height:1.4;">Multi-document synthesis, grounded Q&A, Audio Overviews — source-faithful, zero hallucination</div>
+          </div>
+          <div style="background:#fff;border:1px solid var(--gc-gray-200);border-radius:8px;padding:12px 14px;">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gc-green);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">Antigravity & Gemini CLI</div>
+            <div style="font-size:0.75rem;color:var(--gc-secondary);line-height:1.4;">Agentic coding & automation — skills, subagents, Google Workspace integration, scheduled tasks</div>
+          </div>
+          <div style="background:#fff;border:1px solid var(--gc-gray-200);border-radius:8px;padding:12px 14px;">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gc-green);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">Claude Code & 3P Agents</div>
+            <div style="font-size:0.75rem;color:var(--gc-secondary);line-height:1.4;">Anthropic Claude Code, Cursor, Windsurf — 3P coding agents running on Google Cloud infrastructure</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom connector arrow -->
+  <div class="reveal" data-step="3" style="margin-top:16px;">
+    <div style="display:flex;align-items:center;gap:16px;background:var(--gc-surface);border:1px solid rgba(0,0,0,0.08);border-radius:8px;padding:12px 20px;">
+      <div class="gc-badge" style="background:var(--gc-dark-blue);width:36px;height:36px;"><span class="material-symbols-outlined" style="font-size:20px;">conversion_path</span></div>
+      <div>
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gc-text);">Consumption flows up the stack</span>
+        <span style="font-size:0.75rem;color:var(--gc-secondary);margin-left:8px;">Start with Gemini App (no code) → customize with Gems & NotebookLM → build with Antigravity & CLI → scale with Vertex AI APIs & GPUs</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="gc-banner"><div class="gc-band"></div><div class="gc-band"></div><div class="gc-band"></div><div class="gc-band"></div></div>
+</div>
+
 <div class="progress" id="progress"></div>
-<div class="slide-number" id="slideNumber">1 / 4</div>
+<div class="slide-number" id="slideNumber">1 / 5</div>
 
 <script>
-const totalSlides = 4;
+const totalSlides = 5;
 let current = 0;
 let revealStep = {};
 for (let i = 0; i < totalSlides; i++) revealStep[i] = -1;
